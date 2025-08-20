@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        mark{
+                background-color: rgb(167, 211, 124);            
+            }
+    </style>
+    
+</head>
+<body>
+    <h1>
+        Principais formatações no <mark>HTML5</mark>
+    </h1>
+    <h2>
+        <strong>Negrito/forte</strong>
+    </h2>
+    <p>
+        Utilizando a tag &lt;strong&gt;
+    </p>
+    <h2>
+        <em>italico</em>
+    </h2>
+    <p>
+        Utilizando a tag &lt;em&gt;
+    </p>
+    <h2>
+        <mark style="background-color: rgb(167, 211, 123);">Marca texto/marcado</mark>
+    </h2>
+    <p>
+        Utilizando a tag &lt;mark&gt;. Para mudar-mos a cor do seu marcador, basta apenas utilizar a tag style dentro do parametro mark. Exemplo:
+    </p>
+    <img src="img/print code.jpg" alt="exemplo de codigo citado a cima!">
+    <h2>
+        <del>Marcado/riscado</del>
+    </h2>
+    <p>
+        Utilizando a tag &lt;del&gt;
+    </p>
+    <h2>
+        <ins>Sublinhado</ins>
+    </h2>
+    <p>
+        Utilizando a tag &lt;ins&gt;
+    </p>
+    <h2>
+        <code>Codigo-fonte</code>
+    </h2>
+    <p>
+        Utilizando a tag &lt;code&gt;. Caso queira deixar a formatação adequada para representação de um código, você pode utilizar a junção da tag code e pre. <br> Exemplo de como fica: <br>
+        <pre>
+            <code>
+    import random
+
+    def jogo_adivinhacao():
+        print("=== JOGO DE ADIVINHAÇÃO ===")
+        numero_secreto = random.randint(1, 100)
+        tentativas = 0
+        max_tentativas = 7
+
+        print("Tente adivinhar o número entre 1 e 100.")
+        print(f"Você tem {max_tentativas} tentativas.")
+
+        while tentativas < max_tentativas:
+    try:
+        chute = int(input("Digite seu palpite: "))
+    except ValueError:
+        print("Por favor, digite um número válido.")
+        continue
+    tentativas += 1
+    if chute == numero_secreto:
+        print(f"Parabéns! Você acertou o número {numero_secreto} em {tentativas} tentativas.")
+        break
+    elif chute < numero_secreto:
+        print("O número secreto é maior.")
+    else:
+        print("O número secreto é menor.")
+    tentativas_restantes = max_tentativas - tentativas
+    if tentativas_restantes > 0:
+        print(f"Tentativas restantes: {tentativas_restantes}")
+    else:
+        print(f"Você perdeu! O número era {numero_secreto}.")
+            </code>
+        </pre>
+    </p>
+    <h2>
+        Abreviações (sobrepor) - <abbr title="Torcida Organizada Comando Vermelho">tocv</abbr>
+    </h2>
+    <p>
+        Utilizando a tag &lt;abbr&gt;
+    </p>
+
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+@charset "UTF-8" 
+
+;h1{
+    font: 3em "UnifrakturMaguntia", cursive, sans-serif;
+    text-align: left;
+    text-shadow: 2px 2px 4px #290505;
+}
+
+h1#fontes{
+        color: rgb(202, 202, 202);
+        text-decoration: underline;
+        background-image: linear-gradient(to right, #260104 30%, #0D0D0D);
+        text-align: center;
+         text-shadow: 2px 2px 20px #000000;
+}
+
+p{
+    font: normal 1.5em arial, serif;
+    text-align: justify;
+    font: bolder
+}
+
+body{
+    background-image: linear-gradient(to right, #260104, #40010D, #0D0D0D);
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+}
+p#nu2{
+    font: normal 1em sans-serif;
+    text-align: right;
+    color: rgb(161, 161, 161);
+}
+
+.gang{
+      font: 3em "UnifrakturMaguntia", cursive, sans-serif;
+       text-shadow: 2px 2px 4px #290505;
+    
+}
