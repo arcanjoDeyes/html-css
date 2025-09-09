@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>centralização de box</title>
+    <style>
+
+        #conteiner{
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: absolute;
+            background-color: rgb(240, 82, 82);
+            height: 96vh;
+            width: 500px;
+            padding: 10px;
+        }
+        #conteudo{
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            margin: auto;
+            position: relative;
+            background-color: darkgreen;
+            height: 150px;
+            width: 300px;
+
+            top: 50%;
+            left: 30%;
+
+            transform: translate(-50%, -50%);
+
+            
+        }
+    </style>
+</head>
+<body>
+    <section id="conteiner">
+        <article id="conteudo">
+        </article>
+    </section>
+</body>
+</html>
